@@ -7,7 +7,7 @@
 ## ABSTRACT:
 Radio Detection and Ranging (RADAR) tools are esstenial in detecting phenomon that humans cannot calculate on their own to predict future events or accruaretly locate the position of certain objects (i.e., buildings or landmarks). While RADAR tools are deemed to be useful, they are only able to detect a low-flying object until a certain ground level because of the natural curvature of the Earth. For this investigation, we choose to use RADAR tools to explore the depths of the detection and range of missiles in flight by simulating a missle to “fly under the radar” of its enemies’ defense. -insert a short sentences on findings here- Future directions focus on possible methods to improve ecological validity for future runs of this simulation. 
 
-[![Operation Opera](/opera.png)](https://www.youtube.com/watch?v=LbMeaKTjGjE&feature=youtu.be)
+[![Operation Opera](images/opera.png)](https://www.youtube.com/watch?v=LbMeaKTjGjE&feature=youtu.be)
 
 On June 7, 1981, nearly four decades ago, the Israeli Air Force launched a strike known as Operation Opera into Iraq.  During a hostile time, when Iraq was already at war with Iran, Israeli forces knew this would be no easy task.  However, they planned and executed what is considered one of the most successful low-ingress air strikes to date (Kirschenbaum, 2010.  
 
@@ -22,7 +22,7 @@ They decided to go with a low-level ingress of the strike, due to the Anti-Air D
 The motivation for this topic is simple - **preservation of life**.  Whether it is the ship, jet, or the missile itself delivering the projectile to the target, every component becomes vulnerable to detection and thus retalliation and potentially death.  The advent of technology, as well as tracking systems has worked very hard over the last century to provide munitions that reduce collateral damage (Brooks, et.al, 2004).  These windows have gone from having Circular Error Probables (CEP) of hundreds to thousands of feet, to less than a foot.  Regardless of the tracking mechanism though, if a missile, bomb, or other munition is detected, it could be eliminated by intercepting it.
 
 ### Real World Examples
-![patriot](/patriot.png)
+![patriot](images/patriot.png)
 
 The conflicts in the middle east from Operation Desert Shield until the initial push into Iraq at the start of Operation Iraqi Freedom demonstrated the importance of going undetected.  SAM systems are continuing their advancement in abilities to track and shoot down aircraft, which not only derails the mission success, but also costs human life.  Over the decades prior, the prevalence of these SAM systems has dwindled due to advances in Stealth technology, and the costs of maintaining these systems.  Second and Third world nations, such as Afghanistan found themselves instead relying on should fired rockets and SAMs which were less accurate and costly on the black market.  Tactics, Techniques, and Procedures (TTP) from the US Military since the Vietnam and Korean War where aircraft losses due to IADS were many have improved over time to reduce loss of life.  
 
@@ -32,7 +32,7 @@ With this in mind, the more that technology advances, the more that the develope
 
 ### A Little on RADAR
 
-![Radar Shadow](/shadow.png)
+![Radar Shadow](images/shadow.png)
 
 RADAR tools are critical in the detection of objects (e.g., weather changes, threats within a range, etc.). Particularly, RADAR tools are primary used for forecasting the weather and detecting other phenomenon (i.e., the location of nearby buildings and other landmarks) that cannot be predicted by humans. It is the use of this type of technology that humans are able to make such predictions and succeed in calculating such events. With the current trajectory of RADAR tools, the detection of objects are constrained to a certain range. Specifically, in the aspect of objects flying at low altitudes. Due to detection being at a maximum ground level point, this allows for potential objects to fly under the RADAR’s detection. Without the ability to detect objects under a certain range can be a grave threat. Also, understand more about the area/location of RADAR and their structure (infographics) can contribute to a better approach to this problem.<BR>
 
@@ -44,7 +44,7 @@ The possibilites are two fold in this situation because by attempting to find a 
  
  **Proposed Solution**
  
- ![Janes Cover](/janes.png)
+ ![Janes Cover](images/janes.png)
  
 This model will be different for the community because it will combine existing knowledge that exists on threats, but focused on the munitions (missiles) versus the typical though of aircraft, with regard to radar threats.  Institutional knowledge provides parameters, ranges, and windows of how a system might operate or detect a threat, but knowing the actual pattern of flight is not typically known.  WIth the increasing cost of these weapons, it is imoprtant for a battle commander to understand the risks and probabilities of success prior to launch.  The key change in this model and attempt is to allow the weapon to adjust based on Above Ground Level (AGL) altitude **AND** any perceived threats in it's path.  
 
@@ -54,9 +54,9 @@ This project makes the following contributions:
 * Provide a model with an authoring tool allowing aircrew, and commanders alike to utilize the tool dependent on individual unit needs
 
 ## The Model
-![structural_diagram](/GroupStruc.PNG) <BR><BR>
+![structural_diagram](images/GroupStruc.PNG) <BR><BR>
   
-![behavioral_diagram](/GroupBehav.PNG) <BR><BR>
+![behavioral_diagram](images/GroupBehav.PNG) <BR><BR>
   
   The model we have provided is a good abtraction of the problem we want to study because it illustrates the important components we want to evaluate during a simulation. In addition, the behavioral model depicts how the simulation would run in a big picture view. With the specs of the structural diagram, it shows what is necessary to consider for the behavioral diagram and the overall structure of the simulation.<BR>
  <BR>
@@ -97,9 +97,9 @@ For the Purposes of the proposal, the model simulation will:
 5. Will it be possible for a weapon to self-adjust during flight path execution, given obstacles of terrain, and airborne objects within a set threshold distance?
 
 ## Expected Results
-[IMG-1316.JPG](/IMG-1316.JPG)
-![increase.JPG](/increase.JPG)
-![decrease.JPG](/decrease.JPG)
+[IMG-1316.JPG](images/IMG-1316.JPG)
+![increase.JPG](images/increase.JPG)
+![decrease.JPG](images/decrease.JPG)
 
 1. Given the missile  input variables (i.e., speed and turn rate), we hypothesis that the missile will be capable of hitting a designated target whist maintaining an altitude that allows it to mitigate sensor derection.
 2. When the speed of the missile increases, we predict that the missile may need to make adjustments to its' path, but will still have the capabiity to maintain an altitude close to lower speeds.
