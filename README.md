@@ -97,9 +97,9 @@ For the Purposes of the proposal, the model simulation will:
 5. Will it be possible for a weapon to self-adjust during flight path execution, given obstacles of terrain, and airborne objects within a set threshold distance?
 
 ## Expected Results
-[IMG-1316.JPG](images/IMG-1316.JPG)
-![increase.JPG](images/increase.JPG)
-![decrease.JPG](images/decrease.JPG)
+[IMG-1316.JPG](images/IMG-1316.jpg)
+![increase.JPG](images/increase.jpg)
+![decrease.JPG](images/decrease.jpg)
 
 1. Given the missile  input variables (i.e., speed and turn rate), we hypothesis that the missile will be capable of hitting a designated target whist maintaining an altitude that allows it to mitigate sensor derection.
 2. When the speed of the missile increases, we predict that the missile may need to make adjustments to its' path, but will still have the capabiity to maintain an altitude close to lower speeds.
